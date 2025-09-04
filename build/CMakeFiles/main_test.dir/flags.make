@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = 
+CXX_INCLUDES = -I/home/ntermote/Documents/ExR_Files/ESTIMATOR/build/_deps/json-src/include -isystem /usr/include/eigen3
 
 CXX_FLAGS = 
 
