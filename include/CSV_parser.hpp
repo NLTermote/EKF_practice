@@ -9,6 +9,7 @@
 
 #pragma once
 
+#include <Eigen/Dense>
 #include <string>
 #include <vector>
 #include <chrono>
@@ -34,6 +35,9 @@ public:
 
     void printVectorSizes();
 
+    std::vector<float> getVoltages();
+
+    std::vector<float> getCurrents();
 };
 
 } // namespace CSVP

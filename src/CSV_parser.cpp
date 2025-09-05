@@ -3,6 +3,7 @@
 #include "../include/exp_helpers.hpp"
 #include "../include/CSV_parser.hpp"
 
+
 namespace CSVP {
 
 // constructor for filepath
@@ -34,7 +35,7 @@ namespace CSVP {
             }
 
             // Convert text to appropriate types
-            std::chrono::time_point tp = parseTimestamp(timeStr);
+            auto tp = parseTimestamp(timeStr);
             float vol = std::stof(voltStr);
             float cur = std::stof(currStr);
             //float soc = std::stof(socStr);
@@ -59,5 +60,13 @@ namespace CSVP {
         std::cout << "timestamp size: " << timestamps.size() << std::endl;
         std::cout << "currents size: " << currents.size() << std::endl;
         std::cout << "voltages size: " << voltages.size() << std::endl;
+    };
+
+    std::vector<float> CSVParser::getVoltages() {
+        return voltages;
+    };
+
+    std::vector<float> CSVParser::getCurrents() {
+        return currents;
     };
 }

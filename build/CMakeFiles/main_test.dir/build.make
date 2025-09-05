@@ -73,43 +73,43 @@ CMakeFiles/main_test.dir/main/main.cpp.o: CMakeFiles/main_test.dir/flags.make
 CMakeFiles/main_test.dir/main/main.cpp.o: ../main/main.cpp
 CMakeFiles/main_test.dir/main/main.cpp.o: CMakeFiles/main_test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ntermote/Documents/ExR_Files/ESTIMATOR/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main_test.dir/main/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main_test.dir/main/main.cpp.o -MF CMakeFiles/main_test.dir/main/main.cpp.o.d -o CMakeFiles/main_test.dir/main/main.cpp.o -c /home/ntermote/Documents/ExR_Files/ESTIMATOR/main/main.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main_test.dir/main/main.cpp.o -MF CMakeFiles/main_test.dir/main/main.cpp.o.d -o CMakeFiles/main_test.dir/main/main.cpp.o -c /home/ntermote/Documents/ExR_Files/ESTIMATOR/main/main.cpp
 
 CMakeFiles/main_test.dir/main/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main_test.dir/main/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ntermote/Documents/ExR_Files/ESTIMATOR/main/main.cpp > CMakeFiles/main_test.dir/main/main.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ntermote/Documents/ExR_Files/ESTIMATOR/main/main.cpp > CMakeFiles/main_test.dir/main/main.cpp.i
 
 CMakeFiles/main_test.dir/main/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main_test.dir/main/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ntermote/Documents/ExR_Files/ESTIMATOR/main/main.cpp -o CMakeFiles/main_test.dir/main/main.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ntermote/Documents/ExR_Files/ESTIMATOR/main/main.cpp -o CMakeFiles/main_test.dir/main/main.cpp.s
 
 CMakeFiles/main_test.dir/src/EKF_predict.cpp.o: CMakeFiles/main_test.dir/flags.make
 CMakeFiles/main_test.dir/src/EKF_predict.cpp.o: ../src/EKF_predict.cpp
 CMakeFiles/main_test.dir/src/EKF_predict.cpp.o: CMakeFiles/main_test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ntermote/Documents/ExR_Files/ESTIMATOR/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main_test.dir/src/EKF_predict.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main_test.dir/src/EKF_predict.cpp.o -MF CMakeFiles/main_test.dir/src/EKF_predict.cpp.o.d -o CMakeFiles/main_test.dir/src/EKF_predict.cpp.o -c /home/ntermote/Documents/ExR_Files/ESTIMATOR/src/EKF_predict.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main_test.dir/src/EKF_predict.cpp.o -MF CMakeFiles/main_test.dir/src/EKF_predict.cpp.o.d -o CMakeFiles/main_test.dir/src/EKF_predict.cpp.o -c /home/ntermote/Documents/ExR_Files/ESTIMATOR/src/EKF_predict.cpp
 
 CMakeFiles/main_test.dir/src/EKF_predict.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main_test.dir/src/EKF_predict.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ntermote/Documents/ExR_Files/ESTIMATOR/src/EKF_predict.cpp > CMakeFiles/main_test.dir/src/EKF_predict.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ntermote/Documents/ExR_Files/ESTIMATOR/src/EKF_predict.cpp > CMakeFiles/main_test.dir/src/EKF_predict.cpp.i
 
 CMakeFiles/main_test.dir/src/EKF_predict.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main_test.dir/src/EKF_predict.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ntermote/Documents/ExR_Files/ESTIMATOR/src/EKF_predict.cpp -o CMakeFiles/main_test.dir/src/EKF_predict.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ntermote/Documents/ExR_Files/ESTIMATOR/src/EKF_predict.cpp -o CMakeFiles/main_test.dir/src/EKF_predict.cpp.s
 
 CMakeFiles/main_test.dir/src/CSV_parser.cpp.o: CMakeFiles/main_test.dir/flags.make
 CMakeFiles/main_test.dir/src/CSV_parser.cpp.o: ../src/CSV_parser.cpp
 CMakeFiles/main_test.dir/src/CSV_parser.cpp.o: CMakeFiles/main_test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ntermote/Documents/ExR_Files/ESTIMATOR/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main_test.dir/src/CSV_parser.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main_test.dir/src/CSV_parser.cpp.o -MF CMakeFiles/main_test.dir/src/CSV_parser.cpp.o.d -o CMakeFiles/main_test.dir/src/CSV_parser.cpp.o -c /home/ntermote/Documents/ExR_Files/ESTIMATOR/src/CSV_parser.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main_test.dir/src/CSV_parser.cpp.o -MF CMakeFiles/main_test.dir/src/CSV_parser.cpp.o.d -o CMakeFiles/main_test.dir/src/CSV_parser.cpp.o -c /home/ntermote/Documents/ExR_Files/ESTIMATOR/src/CSV_parser.cpp
 
 CMakeFiles/main_test.dir/src/CSV_parser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main_test.dir/src/CSV_parser.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ntermote/Documents/ExR_Files/ESTIMATOR/src/CSV_parser.cpp > CMakeFiles/main_test.dir/src/CSV_parser.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ntermote/Documents/ExR_Files/ESTIMATOR/src/CSV_parser.cpp > CMakeFiles/main_test.dir/src/CSV_parser.cpp.i
 
 CMakeFiles/main_test.dir/src/CSV_parser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main_test.dir/src/CSV_parser.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ntermote/Documents/ExR_Files/ESTIMATOR/src/CSV_parser.cpp -o CMakeFiles/main_test.dir/src/CSV_parser.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ntermote/Documents/ExR_Files/ESTIMATOR/src/CSV_parser.cpp -o CMakeFiles/main_test.dir/src/CSV_parser.cpp.s
 
 # Object files for target main_test
 main_test_OBJECTS = \

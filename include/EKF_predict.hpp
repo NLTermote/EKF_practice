@@ -34,26 +34,34 @@ namespace EKFPred {
                 C2
         */
 
-        // Define EKF variables
-        float delta_t;
-        float current_load;
-        float voltage_load;
+            // Define EKF variables
+            float delta_t;
+            float current_load;
+            float voltage_load;
 
-        int temperature;
-        int capacity;
-        float R0;
-        float R1;
-        float C1;
-        float R2;
-        float C2;
+            int temperature;
+            int capacity;
+            float R0;
+            float R1;
+            float C1;
+            float R2;
+            float C2;
 
-    
-        // Predict class constructor
-        EKFPredict(float dt, float cur, float vol, int temp, int cap, float r0, float r1, float c1, float r2, float c2);
         
-        // Class method for obtaining A matrix
-        Eigen::Matrix3f getMatrixA(float delta_t, float R1, float C1, float R2, float C2);
+            // Predict class constructor
+            EKFPredict(float dt, int temp, int cap, float r0, float r1, float c1, float r2, float c2);
+            
+            // Class method for obtaining A matrix
+            Eigen::Matrix3f getMatrixA();
 
+            Eigen::Matrix3f testMatrixA();
+
+            Eigen::Vector3f predictState(Eigen::Vector3f x, float cur);
+
+            Eigen::Vector3f getMatrixB();
+
+            Eigen::Matrix3f predictCovariance(Eigen::Matrix3f P, Eigen::Matrix3f Q);
+        
     };
 
 } // namespace EKFPred
